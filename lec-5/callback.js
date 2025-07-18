@@ -1,5 +1,5 @@
 let products = [
-    { name: "samsung", amount: 20000 , quantity : 10 },
+    { name : "samsung", amount: 20000 , quantity : 10 },
     { name: "iphone 16", amount : 100000 , quantity : 1 },
 
 ]

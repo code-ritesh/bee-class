@@ -13,7 +13,7 @@ fs.readFile('./demo.txt' , 'utf-8' , (err , data) =>{
         
         let data2 = data;
 
-        let result = data1.split() + '\n' + data2.trim();
+        let result = data1.replaceAll("\s", "")+ '\n' + data2.replaceAll("\s", "");
 
         fs.writeFile('concate.txt', result , (err) => {
             if (err) return console.log(err);
